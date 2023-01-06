@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KAODINMMA FRIENDS CLUB</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:ital,wght@1,600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/rsz_11thumb.jpg" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="form.html">REGISTER</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="const/THE CONSTITUTION OF KAODINMA KANAEME FRIENDS CLUB OF NIGERIA  2 (1).pdf">CONSTITUTION</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">OBJECTIVES</a></li>
+            <li><a href="">GALLERY</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>KAODINMMA KANYINAEME FRIENDS CLUB</h1>
+        <p>
+          Friends club with membership consisting of friends and their immediate
+          families who migrated to the Kwara state from eastern part of Nigeria.
+        </p>
+        <a href="members.html" class="hero-btn">Club Members</a>
+      </div>
+    </section>
+
+    <!----Objective Section---->
+
+    <section class="objectives">
+      <h2>OBJECTIVES OF THE CLUB</h2>
+      <p class="obj">
+        To promote unity among members and in the society.<br />
+        To foster the zeal and sprit of oneness, fraternal co-operation and
+        mutual understanding among members<br />
+        To enhance discipline and order in the lives and activities of the
+        members.<br />
+      </p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>OUR MISSION</h3>
+          <p>
+            Kaodinmma Kanyinaeme Friends Club, Inc. was established to
+            accomplish the following mission: <br><br> >To foster interactions between
+            individuals who resides in Ilorin Nigeria.<br><br>
+          >To create opportunities for
+            socio-economic networking and development among members.<br><br> 
+            
+
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>WHO WE ARE</h3>
+          <p>
+            Founded on 3rd August 2019 and incorporated under the Corporate
+            Affairs Commission, CAC on 29th December 2022. <br><br>The address of the
+            Association is at NO.7, APATA YAKUBA, ILORIN, NIGERIA.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>FOUNDATION MEMEBERS</h3>
+          <p>
+            The following individuals came together in 2019 at YAKUBA ILORIN to
+            form what has become our esteemed Club:<br><br>
+            1. OKEKE IKENNA REUBEN <br><br>
+            2. UMEZINWA
+            PETER IFEANYI <br><br>3. NNAJIEME B. CHIBUIKE <br><br>
+            4. EZENWAKA KINGSLEY NNAMDI <br><br>5. OBI
+            EMMANUEL CHIGOZIE <br><br>6. ELESI STEPHEN UGOCHUKWU
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!---JavaScript for Toggle Menu ---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

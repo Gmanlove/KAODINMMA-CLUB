@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="form-page">
+    <h1 class="reg-form">REGISTRATION FORM</h1>
+    <div class="form">
+      <form action="https://formspree.io/f/mnqrekzw" method="POST">
+        <div class="wrapper">
+          <div class="title">Fill this form and click Register</div>
+          <div class="form">
+            <div class="input_field">
+              <label> First Name</label>
+              <input type="text" class="input" name="fname" />
+            </div>
+            <div class="input_field">
+              <label> Surname Name</label>
+              <input type="text" class="input" name="surname" />
+            </div>
+            <div class="input_field">
+              <label> Other Name</label>
+              <input type="text" class="input" name="other_name" />
+            </div>
+            <div class="input_field">
+              <label> Date of Birth</label>
+              <input type="text" class="input" name="age" />
+            </div>
+            <div class="input_field">
+              <label>Gender</label>
+              <div class="custom_select">
+                <select name="gender">
+                  <option value="">Select</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="input_field">
+              <label>Marital Status</label>
+              <div class="custom_select">
+                <select name="marital_status">
+                  <option value="">Select</option>
+                  <option value="male">Married</option>
+                  <option value="female">Single</option>
+                </select>
+              </div>
+            </div>
+            <div class="input_field">
+              <label> Occupation</label>
+              <input type="text" class="input" name="occupation" />
+            </div>
+            <div class="input_field">
+              <label> Email Address</label>
+              <input type="text" class="input" name="email" />
+            </div>
+            <div class="input_field">
+              <label> Phone Number</label>
+              <input type="text" class="input" name="phone" />
+            </div>
+
+            <div class="input_field">
+              <label> Contact Address</label>
+              <textarea class="textarea" name="addresss"></textarea>
+            </div>
+            <div class="input_field">
+              <label> Postal Code</label>
+              <input type="text" class="input" name="postal" />
+            </div>
+            <div class="input_field terms">
+              <label class="check">
+                <input type="checkbox" name="agreed" />
+                <span class="checkmark"></span>
+              </label>
+              <p>Agreed to terms and Conditions</p>
+            </div>
+            <div class="inputfield">
+              <input type="submit" value="Register" class="btn" />
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
