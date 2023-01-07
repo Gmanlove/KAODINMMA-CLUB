@@ -98,7 +98,6 @@ nav .fa{
 }
 .nav-links{
   position: absolute;
-  background: #07bcfe;
   height: 100vh;
   width: 200px;
   top: 0;
@@ -303,5 +302,5 @@ h3{
   }
   .members{
     text-align: center;
-    
+
   }
