@@ -162,6 +162,10 @@ h3{
   font-weight: 600;
   margin: 10px 0;
 }
+.fund{
+  color: #9c2d4d;
+  background-color: #27b207;
+}
 
 .course-col:hover{
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
@@ -173,8 +177,55 @@ h3{
   }
 }
 
+/*project Sections */
 
+.pprojects{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
 
+} 
+.pprojects-cols{
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pprojects-cols img{
+  width: 100%;
+  display: block;
+  
+}
+.layer{
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+}
+ .layer h3{
+  width: 100%;
+  font-weight: 500;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  color: #def436;
+  transition: 0.5s;
+ }
+.layer:hover h3{
+bottom: 49%;
+opacity: 1;
+}
+
+/*form sections */
 .form-page {
     background-color: #fec107;
     padding: 0 10px;
