@@ -218,7 +218,7 @@ h3 {
   opacity: 1;
 }
 
-/* Events */
+/*---------- Events */
 
 .events {
   width: 80%;
@@ -226,6 +226,7 @@ h3 {
   text-align: center;
   padding-top: 100px;
 }
+
 .events h1 {
   color: #27b207;
 }
